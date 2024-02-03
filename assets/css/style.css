@@ -1,0 +1,25 @@
+.contactus {
+  font-family: poppins;
+}
+.contact-logo a i {
+  color: red;
+  font-size: 28px;
+  padding-right: 20px;
+}
+.contact-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #efefef;
+  background-color: #efefef;
+  padding: 10%;
+}
+.contact-column1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #efefef;
+  background-color: #efefef;
+  padding: 10%;
+  padding-top: 5%;
+}

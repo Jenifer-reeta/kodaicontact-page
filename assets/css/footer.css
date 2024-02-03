@@ -1,0 +1,96 @@
+footer {
+  background-color: #052671;
+  padding-top: 50px;
+  font-family: poppins;
+}
+.footer-logo img {
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.footer-logo p {
+  color: white;
+  padding-top: 30px;
+  text-align: justify;
+}
+.footer-links {
+  color: white;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.footer-links li {
+  padding: 8px;
+}
+.input-content {
+  color: white;
+}
+.footer-media p {
+  color: white;
+}
+.input-content {
+  padding-top: 10px;
+}
+.footer-input {
+  padding-top: 10px;
+}
+.footer-input input {
+  border-radius: 20px 0px 0px 20px;
+  padding: 5px;
+  border: 1px solid white;
+}
+.footer-input button {
+  border-radius: 0px 20px 20px 0px;
+  padding: 5px;
+  padding-right: 10px;
+  margin-left: -5px;
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.footer-media h5 {
+  color: white;
+  font-size: 16px;
+  padding-top: 15px;
+}
+.footer-media a i {
+  color: white;
+  padding: 8px;
+}
+.footer-copyright p {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 315px) {
+  .footer-input input {
+    width: 130px;
+  }
+  .footer-copyright p {
+    font-size: 10px;
+  }
+  .input-content h5 {
+    font-size: 18px;
+  }
+  .footer-links h5 {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .footer-logo p {
+    font-size: 12px;
+  }
+  .footer-links h5 {
+    font-size: 15px;
+  }
+  .footer-links li {
+    font-size: 12px;
+  }
+  .input-content h5 {
+    font-size: 15px;
+  }
+  .footer-media h5 {
+    font-size: 15px;
+  }
+}

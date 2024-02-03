@@ -1,0 +1,16 @@
+@media only screen and (max-width: 315px) {
+  .navbar-show {
+    width: 195px;
+  }
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 200px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .navbar-show li {
+    font-size: 16px;
+  }
+}
